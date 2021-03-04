@@ -1,0 +1,16 @@
+.div_contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+}
+
+.div_inf{
+   justify-content: center;
+    background-color: black;
+    
+}
+
+Form{
+    width: 50%;
+}

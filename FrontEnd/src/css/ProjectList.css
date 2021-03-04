@@ -1,0 +1,8 @@
+.div_projectlist{
+    margin:30px ;
+     display: flex;
+     flex-wrap: wrap;
+     gap: 12px;
+    flex-direction: row;
+    justify-content: center;
+}
