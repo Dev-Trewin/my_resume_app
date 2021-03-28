@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 import Figure from 'react-bootstrap/Figure'
 
 const ProjectList = () => {
@@ -12,7 +12,7 @@ const ProjectList = () => {
       <div className="div_prof_pict" >
             {
               <img
-                src={require("../image/csharp.jpg")}
+                src={require("../image/Mern.png")}
               
               ></img>
             }
@@ -21,16 +21,19 @@ const ProjectList = () => {
       <div class="flip-box-back ">
                         
                     <Figure.Caption>
-                        technology :
+                        Project:Catalog of EvolveU Projects
+                        Technologies :
                       <ul>
-                        C#,
-                        ASP.NET,
-                         mvc 5,
-                        Microsoft SqlServer
-                      
+                        React,
+                        Tailwind,
+                        NodeJs,
+                        Express,
+                        Axio,
+                        Redux,
+                        MongoDB<br/>
+                        <a href="https://evolveu-projects.herokuapp.com/">View Site</a>
                       </ul>
-                       
-                    
+                     
                      </Figure.Caption>
        
       </div>
@@ -44,7 +47,7 @@ const ProjectList = () => {
       <div className="div_prof_pict" >
             {
               <img
-                src={require("../image/react-01.png")}
+                src={require("../image/reactnative.png")}
               
               ></img>
             }
@@ -53,12 +56,18 @@ const ProjectList = () => {
       <div class="flip-box-back ">
                         
                     <Figure.Caption>
-                        technology :
+                       Project:Craft Selling app<br/>
+                        technology :<br/>
                       <ls>
-                        Node,
-                        React,
-                        MySql,
-                        express
+                        React Native,
+                        NodeJs,
+                        Express,
+                        Redux,
+                        Axio,
+                        Expo,
+                        MySql<br/>
+                        <a href="https://www.figma.com/proto/K3LntySPZgIGNjdBR6Ex6E/Craft-app?node-id=116%3A1&scaling=scale-down">Demo on Figma</a>
+                        
                          
                       
                       </ls>
@@ -78,7 +87,7 @@ const ProjectList = () => {
       <div className="div_prof_pict" >
             {
               <img
-                src={require("../image/pythono01.png")}
+                src={require("../image/MyBlog.png")}
               
               ></img>
             }
@@ -87,13 +96,16 @@ const ProjectList = () => {
       <div class="flip-box-back ">
                         
                     <Figure.Caption>
+                        Project: My Blog<br/>
                         technology :
                       <ls>
-                        Python,
-                        javascript,
-                        MySql
-                       
-                      
+                        React,
+                        Tailwind,
+                        NodeJs,
+                        Express,
+                        Axio,
+                        Redux,
+                        MongoDB
                       </ls>
                        
                     

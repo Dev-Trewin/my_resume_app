@@ -1,13 +1,12 @@
-const mysql = require("mysql2");
+const mysql = require("mysql");
 const dbConfig = require('../Config/dbConfig.js');
-var connection = mysql.createConnection(
+var connection = mysql.createPool(
    {
      host: dbConfig.host,
     user: dbConfig.user,
     password: dbConfig.password,
     database: dbConfig.database,
-    port:dbConfig.port,
-    insecureAuth : true
+   // insecureAuth : true
   
  }
 //process.env.DATABASE_URL

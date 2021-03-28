@@ -64,15 +64,12 @@ class Resume extends Component {
           <Accordion>
             <Card>
               <Card.Header>
-                <Accordion.Toggle as={Button} variant="link" eventKey="1">
-                  Experience
-                  </Accordion.Toggle>
+                Experience
               </Card.Header>
-              <Accordion.Collapse eventKey="1">
                 <Card.Body>
                   <Experience />
                 </Card.Body>
-              </Accordion.Collapse>
+               
             </Card>
             <Card>
               <Card.Header>

@@ -7,6 +7,8 @@ class Education extends Component{
       <div>
           <p>
           <dl>
+          <dt> EvolveU Calgary 2021</dt>
+            <dd> - Full Stack Developer / MERN Stack Developer</dd>
             <dt>ComIT Calgary 2020</dt>
             <dd>- React Development</dd>
             <dt>University of Alberta 2018 (Coursera)</dt>
