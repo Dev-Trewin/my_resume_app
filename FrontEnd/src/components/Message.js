@@ -13,7 +13,7 @@ import {Form, Button,Container,Row,Col } from "react-bootstrap";
    }
   
     componentDidMount() {
-      fetch('https://blooming-citadel-34841.herokuapp.com/api/messages')
+      fetch('http://localhost:3000/api/messages')
       .then(res => res.json())
       .then(json => {
            this.setState({
